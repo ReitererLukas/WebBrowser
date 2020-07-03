@@ -1,0 +1,16 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.web.WebView?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="UI.Controller"
+      xmlns:fx="http://javafx.com/fxml" alignment="center">
+    <children>
+
+        <WebView fx:id="ta_htmlPage"/>
+    </children>
+
+</VBox>
